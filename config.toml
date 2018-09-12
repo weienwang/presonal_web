@@ -67,7 +67,7 @@ enableGitInfo = true
   font = "default"
 
   # Your details.
-  name = "Annie Wang (Wei-en)"
+  name = "Annie Wang"
   role = "Graduate student"
 
   # Organizations/Affiliations.
@@ -332,6 +332,9 @@ enableGitInfo = true
 # Configure the English version of the website.
 [languages.en]
   languageCode = "en-us"
+  
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.38"
 
 # Uncomment the lines below to configure your website in a second language.
 #[languages.zh]
