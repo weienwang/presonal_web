@@ -27,7 +27,7 @@ preserveTaxonomyNames = true
 paginate = 10
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "@wei_en_wang"
+disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
@@ -81,7 +81,7 @@ enableGitInfo = true
   email = "weienwang@ufl.edu"
   address = "Building 1 Room 1, Stanford University, California, 90210, USA"
   skype = "anny0602123"
-
+  
   # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = ""
 
@@ -235,12 +235,12 @@ enableGitInfo = true
 
   [[params.social]]
     icon = "envelope"
-    icon_pack = "fa"
+    icon_pack = "fas"
     link = "mailto:weienwang@ufl.edu"
 
   [[params.social]]
     icon = "twitter"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//twitter.com/wweien"
 
   [[params.social]]
@@ -250,7 +250,7 @@ enableGitInfo = true
 
   [[params.social]]
     icon = "github"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//github.com/weienwang"
     
 
@@ -267,7 +267,7 @@ enableGitInfo = true
 #   The weight parameter defines the order that the links will appear in.
 [params.menus]
   # Align the main menu to the right of the page? (true/false)
-  align_right = false
+  align_right = true
   # Wei: if you say true. The web looks wonky.
 
 # Link to a PDF of your resume/CV from the menu.
@@ -333,9 +333,6 @@ enableGitInfo = true
 [languages.en]
   languageCode = "en-us"
   
-[context.deploy-preview.environment]
-HUGO_VERSION = "0.38"
-
 # Uncomment the lines below to configure your website in a second language.
 #[languages.zh]
 #  languageCode = "zh-Hans"
