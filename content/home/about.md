@@ -13,7 +13,6 @@ weight = 2
   interests = [
     "Electrophysiology recordings (EEG, EMG)", 
     "Motor and sensory processing",
-    "Pain modulation",
     "Motor control" ]
 
 # List your qualifications (such as academic degrees).
